@@ -1,0 +1,23 @@
+{
+  "name": "js-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest ./prime"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ranjanabhi00/JS-TESTING.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ranjanabhi00/JS-TESTING/issues"
+  },
+  "homepage": "https://github.com/ranjanabhi00/JS-TESTING#readme",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
