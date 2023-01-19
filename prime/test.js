@@ -26,7 +26,10 @@ describe('Prime array  should', ()=> {
         },{
             i: [23423412,2345671232,98765210,45],
             e: [],
-        },
+        },{
+            i:[],
+            e:[]
+        }
     ].forEach(({i: input, e: expected})=>{
         test(`input ${input} be ${expected}`, ()=>{
             expect(getPrimes(input)).toEqual(expected);
