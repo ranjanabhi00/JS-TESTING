@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./prime",
+    "test": "jest ",
     "start": "json-server --watch db.json"
   },
   "repository": {

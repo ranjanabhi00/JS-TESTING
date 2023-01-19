@@ -1,9 +1,6 @@
 let axios=require('axios')
 
-async function getData(){
-    let res=await axios.get("http://localhost:3000/houses")
-    console.log(res.data);
-}
+
     let expectedRes= [
         {
         "name": "house2",
