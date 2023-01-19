@@ -38,6 +38,6 @@ let inputArray=[
     ]
   }
 
-  test("Filteres object  ",()=>{
+  test("Filters object  ",()=>{
        expect(getFilteredObj(inputArray)).toEqual(expectedObj)
   })

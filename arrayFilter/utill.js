@@ -61,32 +61,7 @@ function getFilteredObj(studentArray){
     return ans;
 
 }
-let studentArray= [
-    {
-    name: "Hewie",
-    age: 9,
-    promoted: true,
-    gender: "Male",
-    },
-    {
-    name: "Brantley",
-    age: 14,
-    promoted: true,
-    gender: "Female",
-    },
-    {
-    name: "Sophie",
-    age: 8,
-    promoted: true,
-    gender: "Female",
-    },
-    {
-    name: "alvin",
-    age: 14,
-    promoted: false,
-    gender: "Male",
-    },
-   ];
+
  
 
    module.exports=getFilteredObj
